@@ -16,19 +16,8 @@ FILE_V4=`basename -s .tar.bz2 $V4`
 FILE_V5=`basename -s .tar.bz2 $V5`
 FILE_V6=`basename -s .tar.bz2 $V6`
 
-basename -s .tar.bz2 $FILE
-
 RED='\033[0;41;30m'
 STD='\033[0;0;39m'
-
-#FILE=/etc/resolv.conf
-#if [ -f "$FILE" ]; then
-#    echo "$FILE exist"
-#fi
-
-# [ -f /etc/resolv.conf ] && { echo "$FILE exist"; cp "$FILE" /tmp/; }
-# [ -f /etc/hosts ] && echo "Found" || echo "Not found"
-
 
 # ------------------ Functions & Other stuff needed ------------------#
 
